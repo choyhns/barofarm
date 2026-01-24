@@ -21,7 +21,7 @@ CORS(app)  # 모든 도메인 허용 (임시, 테스트용)
 # DB 연결
 # ------------------------
 try:
-    engine = create_engine("oracle+cx_oracle://barofarm:a123@192.168.0.34:1521/xe")
+    engine = create_engine("oracle+cx_oracle://barofarm:a123@localhost:1521/xe")
     logging.info("DB 연결 성공")
 except Exception as e:
     logging.error(f"DB 연결 실패: {e}")

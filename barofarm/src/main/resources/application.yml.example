@@ -66,3 +66,8 @@ naver:
     
 admin:
   secret-key: "SECRET_KEY"
+
+kamis:
+  api:
+    api-key: "YOUR_KAMIS_API_KEY"
+    api-id: "YOUR_KAMIS_API_ID"

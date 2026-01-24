@@ -3,7 +3,7 @@ async function waitBackendReady() {
 
   while (!ready) {
     try {
-      const res = await fetch("http://192.168.0.34:8080/actuator/health/readiness");
+      const res = await fetch("http://localhost:8080/actuator/health/readiness");
       const json = await res.json();
       if (json.status === "UP") {
         ready = true;

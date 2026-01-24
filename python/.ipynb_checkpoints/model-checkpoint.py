@@ -7,7 +7,7 @@ import cx_Oracle
 from sqlalchemy import create_engine
 
 # 1. 오라클에서 데이터 가져오기
-engine = create_engine("oracle+cx_oracle://barofarm:a123@192.168.0.34:1521/xe")
+engine = create_engine("oracle+cx_oracle://barofarm:a123@loaclhost:1521/xe")
 df = pd.read_sql("SELECT * FROM DAILY_PRICE", engine)
 
 print(df.columns)
