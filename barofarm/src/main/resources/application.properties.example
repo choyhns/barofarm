@@ -71,4 +71,3 @@ server.tomcat.uri-encoding=UTF-8
 # naverShopingApi (DataLab / 쇼핑인사이트)
 naver.client-id=YOUR_CLIENT_ID
 naver.client-secret=YOUR_CLIENT_SECRET
-
